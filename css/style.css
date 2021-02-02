@@ -49,7 +49,6 @@ body {
 .jumbo_img {
   width: -webkit-fill-available;
   height: 1000px;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 .jumbo_text {
   position: absolute;
@@ -82,7 +81,8 @@ body {
 }
 
 #main_top {
-  background-color: rgba(250,250,250,var(--bg-opacity));
+  height: 50vh;
+  /* background-color: rgba(250,250,250,var(--bg-opacity)); */
 }
 
 .col-offset-lg-4.col-lg-4.img_helbiz {
@@ -112,6 +112,25 @@ body {
   font-weight: bold;
   font-size: 1.3rem;
   color: #0070c8;
+}
+#main_top_2 {
+  height: 50vh;
+  background-image: url(../img/iphone.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.jumbo_2 {
+  position: relative;
+  height: 100%;
+}
+.jumbo_img_2 {
+  width: -webkit-fill-available;
+  height: 600px;;
+}
+
+.container.cont_2 {
+  height: 10vh;
 }
 /* MEDIA QUERY  */
 /*
